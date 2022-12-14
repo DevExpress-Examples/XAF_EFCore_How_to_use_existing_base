@@ -1,10 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using DevExpress.ExpressApp.Design;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using MyEFSolution.Module.BusinessObjects;
 
 namespace MyEFSolution.Module.MyModels
 {
+    [TypesInfoInitializer(typeof(MyEFSolutionContextInitializer))]
     public partial class MyEFSolutionEFCoreDbContextNew : DbContext
     {
         public MyEFSolutionEFCoreDbContextNew()
