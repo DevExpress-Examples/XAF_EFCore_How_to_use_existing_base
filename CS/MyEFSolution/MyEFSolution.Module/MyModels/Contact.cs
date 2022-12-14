@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
@@ -12,7 +13,7 @@ namespace MyEFSolution.Module.MyModels
     {
         public Contact()
         {
-            MyTasks = new HashSet<MyTask>();
+            MyTasks = new ObservableCollection<MyTask>();
         }
 
         [Key]
