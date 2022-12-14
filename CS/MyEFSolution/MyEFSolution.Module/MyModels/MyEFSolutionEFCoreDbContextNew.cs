@@ -40,6 +40,7 @@ namespace MyEFSolution.Module.MyModels
             });
 
             OnModelCreatingPartial(modelBuilder);
+            modelBuilder.HasChangeTrackingStrategy(ChangeTrackingStrategy.ChangingAndChangedNotificationsWithOriginalValues);
         }
 
         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
