@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyXPOSolution.Module", "MyXPOSolution.Module\MyXPOSolution.Module.csproj", "{65CBE86A-F807-47D6-B1FB-FC4F6AAC50D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyXPOSolution.Blazor.Server", "MyXPOSolution.Blazor.Server\MyXPOSolution.Blazor.Server.csproj", "{59B0868B-2CDB-4813-B5CC-268A0297CD98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65CBE86A-F807-47D6-B1FB-FC4F6AAC50D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65CBE86A-F807-47D6-B1FB-FC4F6AAC50D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65CBE86A-F807-47D6-B1FB-FC4F6AAC50D9}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{65CBE86A-F807-47D6-B1FB-FC4F6AAC50D9}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{65CBE86A-F807-47D6-B1FB-FC4F6AAC50D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65CBE86A-F807-47D6-B1FB-FC4F6AAC50D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B0868B-2CDB-4813-B5CC-268A0297CD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B0868B-2CDB-4813-B5CC-268A0297CD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B0868B-2CDB-4813-B5CC-268A0297CD98}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{59B0868B-2CDB-4813-B5CC-268A0297CD98}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{59B0868B-2CDB-4813-B5CC-268A0297CD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B0868B-2CDB-4813-B5CC-268A0297CD98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8054D51D-C7B5-4C2E-8990-510A66726BB7}
+	EndGlobalSection
+EndGlobal

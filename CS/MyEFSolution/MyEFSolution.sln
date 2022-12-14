@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyEFSolution.Module", "MyEFSolution.Module\MyEFSolution.Module.csproj", "{E3FC133A-7CAC-4264-AAFD-AC89273818D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyEFSolution.Blazor.Server", "MyEFSolution.Blazor.Server\MyEFSolution.Blazor.Server.csproj", "{C0385BCC-9264-4BF2-A3B3-E5A8BB14BA0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3FC133A-7CAC-4264-AAFD-AC89273818D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3FC133A-7CAC-4264-AAFD-AC89273818D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3FC133A-7CAC-4264-AAFD-AC89273818D8}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{E3FC133A-7CAC-4264-AAFD-AC89273818D8}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{E3FC133A-7CAC-4264-AAFD-AC89273818D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3FC133A-7CAC-4264-AAFD-AC89273818D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0385BCC-9264-4BF2-A3B3-E5A8BB14BA0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0385BCC-9264-4BF2-A3B3-E5A8BB14BA0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0385BCC-9264-4BF2-A3B3-E5A8BB14BA0D}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{C0385BCC-9264-4BF2-A3B3-E5A8BB14BA0D}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{C0385BCC-9264-4BF2-A3B3-E5A8BB14BA0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0385BCC-9264-4BF2-A3B3-E5A8BB14BA0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CABD7C3-292F-46C9-AC10-5DB9F477C6B5}
+	EndGlobalSection
+EndGlobal
