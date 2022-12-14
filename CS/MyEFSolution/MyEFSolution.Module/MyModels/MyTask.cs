@@ -12,15 +12,15 @@ namespace MyEFSolution.Module.MyModels
     public partial class MyTask
     {
         [Key]
-        public Guid Oid { get; set; }
+        public virtual Guid Oid { get; set; }
         [StringLength(100)]
-        public string Subject { get; set; }
-        public Guid? AssignedTo { get; set; }
-        public bool? IsActive { get; set; }
-        public int? Priority { get; set; }
-        public int? OptimisticLockField { get; set; }
+        public virtual string Subject { get; set; }
+        public virtual Guid? AssignedTo { get; set; }
+        public virtual bool? IsActive { get; set; }
+        public virtual int? Priority { get; set; }
+        public virtual int? OptimisticLockField { get; set; }
         [Column("GCRecord")]
-        public int? Gcrecord { get; set; }
+        public virtual int? Gcrecord { get; set; }
 
         [ForeignKey("AssignedTo")]
         [InverseProperty("MyTasks")]

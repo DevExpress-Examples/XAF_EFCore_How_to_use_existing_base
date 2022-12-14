@@ -16,15 +16,15 @@ namespace MyEFSolution.Module.MyModels
         }
 
         [Key]
-        public Guid Oid { get; set; }
+        public virtual Guid Oid { get; set; }
         [StringLength(100)]
-        public string FirstName { get; set; }
+        public virtual string FirstName { get; set; }
         [StringLength(100)]
-        public string LastName { get; set; }
-        public int? Age { get; set; }
-        public int? OptimisticLockField { get; set; }
+        public virtual string LastName { get; set; }
+        public virtual int? Age { get; set; }
+        public virtual int? OptimisticLockField { get; set; }
         [Column("GCRecord")]
-        public int? Gcrecord { get; set; }
+        public virtual int? Gcrecord { get; set; }
 
         [InverseProperty("AssignedToNavigation")]
         public virtual ICollection<MyTask> MyTasks { get; set; }
