@@ -30,14 +30,14 @@ public class MyEFSolutionDesignTimeDbContextFactory : IDesignTimeDbContextFactor
 		//return new MyEFSolutionEFCoreDbContext(optionsBuilder.Options);
 	}
 }
-[TypesInfoInitializer(typeof(MyEFSolutionContextInitializer))]
-public class MyEFSolutionEFCoreDbContext : DbContext {
-	public MyEFSolutionEFCoreDbContext(DbContextOptions<MyEFSolutionEFCoreDbContext> options) : base(options) {
-	}
-	//public DbSet<ModuleInfo> ModulesInfo { get; set; }
+//[TypesInfoInitializer(typeof(MyEFSolutionContextInitializer))]
+//public class MyEFSolutionEFCoreDbContext : DbContext {
+//	public MyEFSolutionEFCoreDbContext(DbContextOptions<MyEFSolutionEFCoreDbContext> options) : base(options) {
+//	}
+//	//public DbSet<ModuleInfo> ModulesInfo { get; set; }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder) {
-        base.OnModelCreating(modelBuilder);
-        modelBuilder.HasChangeTrackingStrategy(ChangeTrackingStrategy.ChangingAndChangedNotificationsWithOriginalValues);
-    }
-}
+//    protected override void OnModelCreating(ModelBuilder modelBuilder) {
+//        base.OnModelCreating(modelBuilder);
+//        modelBuilder.HasChangeTrackingStrategy(ChangeTrackingStrategy.ChangingAndChangedNotificationsWithOriginalValues);
+//    }
+//}
