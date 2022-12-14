@@ -9,6 +9,7 @@ namespace MyEFSolution.Module.MyModels
     [Table("MyTask")]
     [Index("AssignedTo", Name = "iAssignedTo_MyTask")]
     [Index("Gcrecord", Name = "iGCRecord_MyTask")]
+    [DevExpress.Persistent.Base.DefaultClassOptions]
     public partial class MyTask
     {
         [Key]

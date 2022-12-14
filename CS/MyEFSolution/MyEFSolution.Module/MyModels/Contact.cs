@@ -9,6 +9,7 @@ namespace MyEFSolution.Module.MyModels
 {
     [Table("Contact")]
     [Index("Gcrecord", Name = "iGCRecord_Contact")]
+    [DevExpress.Persistent.Base.DefaultClassOptions]
     public partial class Contact
     {
         public Contact()
