@@ -4,9 +4,9 @@
 <!-- default badges end -->
 # XAF - Generate EF Core Business Classes from an Existing Database for .NET 6+ Blazor and WinForms Applications (Database First)
 
-You can use the [PMC](https://docs.microsoft.com/en-us/ef/core/cli/powershell) or [CLI](https://docs.microsoft.com/en-us/ef/core/cli/dotnet) tools to generate a business model from an existing database with Entity Framework Core (database first approach). This example describes the general approach for Blazor or WinForms .NET6 XAF applications.
+You can use the [PMC](https://docs.microsoft.com/en-us/ef/core/cli/powershell) or [CLI](https://docs.microsoft.com/en-us/ef/core/cli/dotnet) tools to generate a business model from an existing database with an Entity Framework Core (database first approach). This example describes the general approach for Blazor or WinForms .NET6 XAF applications.
 
-To see this example in action run the **MyXPOSolution** solution to generate a database. After that, run the **MyEFSolution** to see data from the generated database. Refer to the following topic for implementation steps: [Documentation](https://docs.devexpress.com/eXpressAppFramework/402971/business-model-design-orm/business-model-design-with-entity-framework-core/generate-ef-core-business-classes-from-an-existing-database-for-blazor-and-winforms).
+To see this example, run the **MyXPOSolution** solution to generate a database. After that, run the **MyEFSolution** to see data from the generated database. Refer to the following topic for implementation steps: [Documentation](https://docs.devexpress.com/eXpressAppFramework/402971/business-model-design-orm/business-model-design-with-entity-framework-core/generate-ef-core-business-classes-from-an-existing-database-for-blazor-and-winforms).
 
 ## Files to Review
 
