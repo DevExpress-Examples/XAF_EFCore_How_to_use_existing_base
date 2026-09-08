@@ -51,6 +51,7 @@ public class Startup {
                     options.UseSqlServer(connectionString);
                     options.UseChangeTrackingProxies();
                     options.UseObjectSpaceLinkProxies();
+                    options.UseXafServiceProviderContainer(serviceProvider);
                     options.UseLazyLoadingProxies();
                 })
                 .AddNonPersistent();
@@ -71,6 +72,7 @@ public class Startup {
         app.UseRequestLocalization();
         app.UseStaticFiles();
         app.UseRouting();
+        app.UseAntiforgery();
         app.UseXaf();
         app.UseEndpoints(endpoints => {
             endpoints.MapXafEndpoints();
